@@ -1,5 +1,8 @@
-#백준 2441_별 찍기 4
-n = int(input())
-
-for i in range (1, n+1):
-    print(' '*(i-1)+'*'*(n-i+1))
+answer = 27
+submit = int(input())
+if answer < submit :
+    print ("정답보다 더 큰 수를 입력했습니다.")
+elif answer > submit :
+    print ("정답보다 더 작은 수를 입력했습니다.")
+elif answer == submit:
+    print ('정답!')
