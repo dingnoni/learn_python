@@ -1,8 +1,5 @@
-answer = 27
-submit = int(input())
-if answer < submit :
-    print ("정답보다 더 큰 수를 입력했습니다.")
-elif answer > submit :
-    print ("정답보다 더 작은 수를 입력했습니다.")
-elif answer == submit:
-    print ('정답!')
+num = int(input())
+if num % 2 == 0 :
+    print (num, "짝수입니다.")
+else :
+    print (num, "홀수입니다.")
